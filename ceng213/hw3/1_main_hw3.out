@@ -1,0 +1,57 @@
+
+hw3 -- main_hw3.cpp file
+
+addUser ("Brian", "BriansPassword"): 1
+addUsers ("list_of_users.txt"): 4
+changePass ("Brian", "Briannagetsfucked", "BriansNewPassword"): 0
+changePass ("Brian", "BriansPassword", "BriansNewPassword"): 1
+changePass ("Brian", "BriansNewPassword", "BriansNeeeeewPassword"): 1
+changePass ("Brian", "BriansPassword", "BriansNewNEWNEWNEWPassword"): 0
+changePass ("Dijkstra", "dijkstraspassword", "dijkstrasNEWpassword"): 1
+changePass ("Knuth", "KnuthsPassword", "fuckingfuck"): 1
+delUser("Knuth): 1
+ oldPasswords: KnuthsPassword fuckingfuck
+delUser("McFucker): 0
+
+Dijkstra dijkstraspassword
+EMPTY EMPTY
+EMPTY EMPTY
+EMPTY EMPTY
+EMPTY EMPTY
+EMPTY EMPTY
+EMPTY EMPTY
+Brian BriansNeeeeewPassword
+Brian BriansNewPassword
+Brian BriansPassword
+EMPTY EMPTY
+Dennis Dennisspassword
+EMPTY EMPTY
+EMPTY EMPTY
+EMPTY EMPTY
+DELETED DELETED
+DELETED DELETED
+EMPTY EMPTY
+EMPTY EMPTY
+EMPTY EMPTY
+Kruskal Kruskalspassword
+EMPTY EMPTY
+Dijkstra dijkstrasNEWpassword
+login ("Brian", "BriansNewPassword"): 0
+login ("Brian", "BriansNewNEWNEWNEWPassword"): 0
+login ("Brian", "BriansNeeeeewPassword"): 1
+login ("Dijkstra", "dsadsadsadsa"): 0
+login ("Dijkstra", "dijkstrasNEWpassword"): 1
+
+Brian
+EMPTY
+EMPTY
+Dijkstra
+
+logout ("HelloWorld"): 0
+logout ("Brian"): 1
+
+DELETED
+EMPTY
+EMPTY
+Dijkstra
+
